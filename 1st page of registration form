@@ -4,12 +4,12 @@
 </head>  
 <body>  
 <form action='2nd page of registration form.html' name='multi_redg_form' method = 'post'>  
-  <div class="container">  
+  <div class="main">  
   <center>  <h1>Registration Form</h1> </center>
       
   <div class="row">
 	<label class="required">Name</label>  
-  	<div class="col-35">
+  	<div class="alignn">
 		<input type="text" name="firstname" placeholder= "First Name" class="control control-lg" required />
 		<input type="text" name="lastname" placeholder= "Last Name" class="control control-lg" required />
 	</div>
@@ -24,14 +24,14 @@
   </div> 
   <div class="row">
 	<label class="required">Father's name</label>  
-  	<div class="col-35">
+  	<div class="alignn">
 		<input type="text" name="firstname" placeholder= "First Name" class="control control-lg" required />
 		<input type="text" name="lastname" placeholder= "Last Name" class="control control-lg" required />
 	</div>
   </div>
   <div class="row">
 	<label class="required">Mother's name</label>  
-  	<div class="col-35">
+  	<div class="alignn">
 		<input type="text" name="firstname" placeholder= "First Name" class="control control-lg" required />
 		<input type="text" name="lastname" placeholder= "Last Name" class="control control-lg" required />
 	</div>
@@ -51,7 +51,7 @@
   <label>Home Address </lable><br>  
 	<textarea cols="80" rows="1" placeholder="Street Address" value="address" required></textarea> 
 	<br><br>
-	<div class="col-35">
+	<div class="alignn">
 	<input type="text" placeholder="City"><select>  
 	<option value="Country">Country</option>  
 	<option value="AF">Afghanistan</option>
@@ -322,14 +322,15 @@
   </div> 
   </div>
 </div>
+<div class="main">
   <label>Telephone-Home </label>  
 	<input type="text" name="country code" placeholder="### ### ####" size="10"/>
   <label class="required">Telephone-Mobile </label>  
 	<input type="text" name="country code" placeholder="### ### ####" size="10"/> 
-   
+   </div>
 
   
-    <button type="submit" class="registerbtn">Next</button> 
+    <button type="submit" class="nextpg">Next</button> 
    
 </form>  
 </body>  
