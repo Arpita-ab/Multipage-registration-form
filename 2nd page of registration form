@@ -1,0 +1,70 @@
+<html>  
+<head>  
+	<link rel="stylesheet" href="style_regd.css">
+</head>  
+<body>  
+<form action='multipage2.html' name='redg_form' method = 'post'>  
+  <div class="container">  
+  <center>  <h1>Registration Form</h1> </center>
+      
+  <div class="row">
+	<label class="required">HSC Institution name</label>  
+  	<div class="col-35">
+		<input type="text" name="name1" placeholder= "insitute name" class="control control-lg" required />
+	</div>
+  </div> 
+  <div class="row">
+	<label class="required">HSC Board</label>  
+		<select>  
+			<option value="CBSC">CBSC</option>  
+			<option value="ICSC">ICSC</option>  
+			<option value="State board">State board</option>   
+  		</select>
+  </div> 
+  <div class="row">
+	<label class="required">Score in HSC in percentage</label>  
+		<input type="text" name="ssc score" class="control control-lg" required />
+  </div>
+  <div class="row">
+	<label class="required">SSC Institution name</label>  
+  	<div class="col-35">
+		<input type="text" name="name2" placeholder= "insitute name" class="control control-lg" required />
+	</div>
+  </div>  
+  <div class="row">
+	<label class="required">SSC Board</label>  
+		<select>  
+			<option value="CBSC">CBSC</option>  
+			<option value="ICSC">ICSC</option>  
+			<option value="State board">State board</option>   
+  		</select>
+  </div> 
+  <div class="row">
+	<label class="required">Score in SSC in percentage</label>  
+		<input type="text" name="hsc score" class="control control-lg" required />
+  </div> 
+  <div>
+  <lable class="required">Currently pursuing </lable>
+	<input type="text" name="degree" class="control control-lg" required />
+  </div>
+  <div class="row">
+	<label class="required">Current educational institution name</label>  
+  	<div class="col-35">
+		<input type="text" name="name2" placeholder= "insitute name" class="control control-lg" required />
+	</div>
+  </div>
+  <div class="row">
+	<label class="required">Overall percentage</label>  
+		<input type="text" name="hsc score" class="control control-lg" required />
+  </div>
+  <div>  
+	<label class="required">Current backlogs if any </label><br>  
+		<input type="text" name="backlog" class="control control-lg" required />   
+  </div>
+
+  
+    <button type="submit" class="registerbtn">Next</button> 
+   
+</form>  
+</body>  
+</html> 
