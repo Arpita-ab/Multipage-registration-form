@@ -3,7 +3,7 @@
 	<link rel="stylesheet" href="style_regd.css">
 </head>  
 <body>  
-<form action='2nd page of registration form.html' name='redg_form' method = 'post'>  
+<form action='2nd page of registration form.html' name='multi_redg_form' method = 'post'>  
   <div class="container">  
   <center>  <h1>Registration Form</h1> </center>
       
