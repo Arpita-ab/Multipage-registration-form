@@ -4,13 +4,13 @@
 </head>  
 <body>  
 <form action='3rd page of registration form' name='multi_redg_form' method = 'post'>  
-  <div class="container">  
+  <div class="main">  
   <center>  <h1>Registration Form</h1> </center>
       
   <div class="row">
 	<label class="required">HSC Institution name</label>  
-  	<div class="col-35">
-		<input type="text" name="name1" placeholder= "insitute name" class="control control-lg" required />
+  	<div class="alignn">
+		<input type="text" name="name1" placeholder= "Insitute name" class="control control-lg" required />
 	</div>
   </div> 
   <div class="row">
@@ -27,8 +27,8 @@
   </div>
   <div class="row">
 	<label class="required">SSC Institution name</label>  
-  	<div class="col-35">
-		<input type="text" name="name2" placeholder= "insitute name" class="control control-lg" required />
+  	<div class="alignn">
+		<input type="text" name="name2" placeholder= "Insitute name" class="control control-lg" required />
 	</div>
   </div>  
   <div class="row">
@@ -49,8 +49,8 @@
   </div>
   <div class="row">
 	<label class="required">Current educational institution name</label>  
-  	<div class="col-35">
-		<input type="text" name="name2" placeholder= "insitute name" class="control control-lg" required />
+  	<div class="alignn">
+		<input type="text" name="name2" placeholder= "Insitute name" class="control control-lg" required />
 	</div>
   </div>
   <div class="row">
@@ -61,9 +61,10 @@
 	<label class="required">Current backlogs if any </label><br>  
 		<input type="text" name="backlog" class="control control-lg" required />   
   </div>
+</div>
 
   
-    <button type="submit" class="registerbtn">Next</button> 
+    <button type="submit" class="nextpg">Next</button> 
    
 </form>  
 </body>  
