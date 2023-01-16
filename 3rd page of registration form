@@ -4,36 +4,36 @@
 </head>  
 <body>  
   
-  <div class="container">  
+  <div class="main">  
   <center>  <h1>Registration Form</h1> </center>
       
   <div class="row">
 	<label class="required">Recent passport size photograph(image size less than 4MB)</label>  
-  	<div class="col-35">
+  	<div class="alignn">
 		<input type="file" accept="image/*,.pdf" />
 	</div>
   </div> 
   <div class="row">
 	<label class="required">HSC mark sheet(image,pdf size less than 4MB)</label>  
-  	<div class="col-35">
+  	<div class="alignn">
 		<input type="file" accept="image/*,.pdf" />
 	</div>
   </div>
   <div class="row">
 	<label class="required">SSC mark sheet(image,pdf size less than 4MB)</label>  
-  	<div class="col-35">
+  	<div class="alignn">
 		<input type="file" accept="image/*,.pdf" />
 	</div>
   </div>
   <div class="row">
 	<label class="required">All semester mark sheet in a single pdf(file size less than 10MB)</label>  
-  	<div class="col-35">
+  	<div class="alignn">
 		<input type="file" accept="image/*,.pdf" />
 	</div>
   </div>
+  </div>
   
-  
-    <button type="submit" class="registerbtn">Submit</button> 
+    <button type="submit" class="nextpg">Submit</button> 
    
 </form>  
 </body>  
